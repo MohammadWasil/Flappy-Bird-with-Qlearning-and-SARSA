@@ -1,1 +1,1 @@
-# Flappy-Bird-with-Qlearning-and-SARSA
+# SMart-Cab-with-Qlearning-and-SARSA
