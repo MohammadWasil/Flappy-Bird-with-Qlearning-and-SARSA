@@ -9,3 +9,35 @@ To run/train the smart cab:
 3) type: "python RL.py", and hit enter.
 4) It will the ask for your input: "Enter 'TRAIN' to train or 'RUN' to run the game:"
 5) type 'RUN' or 'TRAIN' and it will do the required task.
+
+## MOTIVATION
+• To study and compare Q Learning and SARSA algorithm. <Br/>
+• Model free and Model based RL algorithm. <Br/>
+• Approach Temporal difference learning learns how to predict a quantity that depends on future values of a
+given signal learns from experience. <Br/>
+• Temporal difference update step: <Br/>
+  
+      𝑁𝑒𝑤𝐸𝑠𝑡𝑖𝑚𝑎𝑡𝑒 ← 𝑂𝑙𝑑𝐸𝑠𝑡𝑖𝑚𝑎𝑡𝑒 + 𝑆𝑡𝑒𝑝𝑠𝑖𝑧𝑒[𝑇𝑎𝑟𝑔𝑒𝑡 − 𝑜𝑙𝑑𝐸𝑠𝑡𝑖𝑚𝑎𝑡𝑒]
+
+## SMART CAB GAME
+
+• Inspired from OpenAI gym environment. <Br/>
+• 2D grid 5x5 cells. <Br/>
+• Agent Cab <Br/>
+• Drop off and pick up locations. <Br/>
+• Objective of the game: <Br/>
+1. pick up the passenger.
+2. drop off the passenger at the right location.
+3. take as minimum time as possible. <Br/>
+
+• Coordinate System: See Screenshot. <Br/>
+• Pickup positions: [0, 0], [0, 4], [4, 0] and [4, 3]. <Br/>
+• Dropoff positions: [0, 0], [0, 4], [4, 0] and [4, 3]. <Br/>
+• Rules: <Br/>
+1. Drop off location should not be equal to Pickup location in one episode.
+2. Cab cannot go through the walls.
+3. Cab can move “UP”, “DOWN”, “LEFT”, and “RIGHT. No Diagonal
+4. Cannot go beyond the extreme rows and columns.
+
+## Grid
+![Grid](https://user-images.githubusercontent.com/31696557/131404076-1858a8a4-fa64-4ab0-9535-1f0af25221b3.png)
