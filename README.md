@@ -41,3 +41,13 @@ given signal learns from experience. <Br/>
 
 ## Grid
 ![Grid](https://user-images.githubusercontent.com/31696557/131404076-1858a8a4-fa64-4ab0-9535-1f0af25221b3.png)
+
+## REWARD FUNCTION
+```math
+𝑅𝑒𝑤𝑎𝑟𝑑(𝑠,𝑎)=−1𝑓𝑜𝑟𝑒𝑣𝑒𝑟𝑦𝑠𝑡𝑒𝑝−10𝑝𝑖𝑐𝑘𝑢𝑝𝑓𝑟𝑜𝑚𝑤𝑟𝑜𝑛𝑔𝑙𝑜𝑐𝑎𝑡𝑖𝑜𝑛−10𝑑𝑟𝑜𝑝𝑜𝑓𝑓𝑎𝑡𝑤𝑟𝑜𝑛𝑔𝑙𝑜𝑐𝑎𝑡𝑖𝑜𝑛+30𝑜𝑟0𝑝𝑖𝑐𝑘𝑢𝑝𝑓𝑟𝑜𝑚𝑟𝑖𝑔ℎ𝑡𝑙𝑜𝑐𝑎𝑡𝑖𝑜𝑛+20𝑑𝑟𝑜𝑝𝑜𝑓𝑓𝑎𝑡𝑟𝑖𝑔ℎ𝑡𝑙𝑜𝑐𝑎𝑡𝑖𝑜𝑛
+```
+
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
