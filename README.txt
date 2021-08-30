@@ -1,5 +1,3 @@
-# Smart-Cab-with-Qlearning-and-SARSA
-
 The folder, "Smart Cab RL" contains 4 subfolder: "Smart Cab Q-learning", "Smart Cab Q-Learning REWARD=0", "Smart Cab SARSA", "Smart Cab SARSA REWARD=0".
 Each of these folder contains the file for running or training the smart cab using Q-learning and SARSA algorithm with different reward function.
 
