@@ -1,5 +1,7 @@
 # Smart-Cab-with-Qlearning-and-SARSA
 
+This project was associated with "[MAT-DSAM3A] Advanced Data Assimilation and Modeling A: Reinforcement Learning" for my Masters of Science: Data Science, University of Potsdam, Germany.
+
 The folder, "Smart Cab RL" contains 4 subfolder: "Smart Cab Q-learning", "Smart Cab Q-Learning REWARD=0", "Smart Cab SARSA", "Smart Cab SARSA REWARD=0".
 Each of these folder contains the file for running or training the smart cab using Q-learning and SARSA algorithm with different reward function.
 
