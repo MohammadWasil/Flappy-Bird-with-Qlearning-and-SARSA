@@ -1,5 +1,7 @@
 # Smart-Cab-with-Qlearning-and-SARSA
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMohammadWasil%2FSmart-Cab-with-Qlearning-and-SARSA&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 This project was associated with "[MAT-DSAM3A] Advanced Data Assimilation and Modeling A: Reinforcement Learning", Summer Semester 2021, for my Masters of Science: Data Science, University of Potsdam, Germany.
 
 The folder, "Smart Cab RL" contains 4 subfolder: "Smart Cab Q-learning", "Smart Cab Q-Learning REWARD=0", "Smart Cab SARSA", "Smart Cab SARSA REWARD=0".
